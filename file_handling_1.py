@@ -1,0 +1,16 @@
+f = open('f1.txt','w')
+f.write('Mithlesh Kumar \n')
+f.write('IIT Madras \n')
+f.write('Data Science \n')
+f.close()
+
+f =open('f1.txt','r')
+# a = f.read()
+# print(a)
+a = f.readline()
+print(a)
+a = f.readline()
+print(a)
+a = f.readline()
+print(a)
+
